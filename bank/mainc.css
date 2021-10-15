@@ -107,29 +107,3 @@ body
     font-size: 13px;
 }
 
-@media screen  and (max-width:1000px)
-{
-    .linkss,.down,.header,.rit,.m
-    {
-        width: 100%;
-    }    
-    .rit img
-    {
-        width: 21%;
-        display: inline;
-    }
-}
-
-
-@media screen  and (max-width:600px)
-{
-    .linkss,.down,.header,.rit,.m
-    {
-        width: 100%;
-    }    
-    .rit img
-    {
-        width: 21%;
-        display: inline;
-    }
-}
