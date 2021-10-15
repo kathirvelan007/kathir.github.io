@@ -1,0 +1,135 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+.header
+{
+    background-color: orange;
+    padding: 7px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.centre
+{
+    overflow: auto;
+}
+
+
+.linkss
+{
+    width: 15%;
+    padding: 5px;
+    float: left;
+}
+
+.linkss a
+{
+    color:white;
+    font-weight: bold;
+    background-color: red;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.linkss a:hover
+{
+    background-color: yellow;
+    color: black;
+}
+.linkss a:active
+{
+    background-color: violet;
+    color: black;
+}
+
+.m
+{
+    width:65%;
+    color: white;
+    background-color: skyblue;
+    float: left;
+    padding: 2px;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0
+    overflow:auto;
+}
+
+.m1
+{
+    width: 100%;
+    background-color: violet;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 2px;
+    margin: 0px;
+    width: 100%;
+}
+
+.rit
+{
+    color: red;
+    background-color: gray;
+    width: 18%;
+    float: left;
+    margin: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.down
+{
+    background-color:orange;
+    padding: 3px;
+    padding-left: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    font-size: 13px;
+}
+
+@media screen  and (max-width:1000px)
+{
+    .linkss,.down,.header,.rit,.m
+    {
+        width: 100%;
+    }    
+    .rit img
+    {
+        width: 21%;
+        display: inline;
+    }
+}
+
+
+@media screen  and (max-width:600px)
+{
+    .linkss,.down,.header,.rit,.m
+    {
+        width: 100%;
+    }    
+    .rit img
+    {
+        width: 21%;
+        display: inline;
+    }
+}
